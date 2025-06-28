@@ -1,6 +1,6 @@
-# GraphragKM - AI Ontology Generation Tool Driven by GraphRAG
+# GraphRAG-ASCOC - AI Ontology Generation Tool Driven by GraphRAG
 
-GraphragKM is an AI ontology generation tool based on GraphRAG that can automatically extract knowledge from PDF documents and generate OWL ontologies and UML models. It integrates text extraction, OCR recognition, graph construction, inference, and other technologies to provide users with a one-stop knowledge graph and ontology generation solution.
+GraphRAG-ASCOC is an AI ontology generation tool based on GraphRAG that can automatically extract knowledge from PDF documents and generate OWL ontologies and UML models. It integrates text extraction, OCR recognition, graph construction, inference, and other technologies to provide users with a one-stop knowledge graph and ontology generation solution.
 
 ## Features
 
