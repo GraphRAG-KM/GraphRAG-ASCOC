@@ -30,7 +30,19 @@ dependencies = [
 ]
 
 [tool.poetry]
-packages = [{ include = "graphragkm", from = "src" }]
+packages = [
+    { include = "config", from = "src" },
+    { include = "app_main.py", from = "src" },
+    { include = "cli.py", from = "src" },
+    { include = "inference_processor.py", from = "src" },
+    { include = "knowledge_enricher.py", from = "src" },
+    { include = "markdown_processor.py", from = "src" },
+    { include = "owl_generator.py", from = "src" },
+    { include = "pdf_processor.py", from = "src" },
+    { include = "stats.py", from = "src" },
+    { include = "uml_generator.py", from = "src" },
+    { include = "version.py", from = "src" },
+]
 
 
 [tool.poetry.group.dev.dependencies]
@@ -41,4 +53,4 @@ requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.scripts]
-graphragkm = "graphragkm.cli:main"
+graphragkm = "cli:main"

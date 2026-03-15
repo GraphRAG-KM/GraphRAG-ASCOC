@@ -65,6 +65,11 @@ app:
   max_concurrent_requests: 25
 ```
 
+## Development Layout
+
+Project source modules now live directly under `src/`, with configuration code kept in `src/config/`.
+The main pipeline entry module is `src/app_main.py`, while the repository-root `main.py` remains available as a convenience launcher for `python main.py`.
+
 ## Dependencies
 
 - Python 3.11+
